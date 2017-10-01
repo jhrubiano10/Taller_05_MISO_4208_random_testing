@@ -1,13 +1,22 @@
-Es proyecto utiliza Webdriver.io para inyectar el script de [gremlins.js](https://github.com/marmelab/gremlins.js/blob/master/README.md) a la página de [losestudiantes](https://losestudiantes.co) y realizar un ataque de Monkey testing.
+# Random Testing con gremlins.js
 
-Para ejecutar las pruebas, clone este repositorio y descargue las dependencias con el siguiente comando en su terminal:
+Acciones a realizar:
 
-```bash
-$ npm install
-```
+* [Modificar la especie que llena formularios]
+* [Modificar la especie que realiza clicks para que solo haga clicks sobre botones o links]
+* [Cambiar la distribucíon para darle prioridad al gremlin que realiza clicks]
 
-Luego para correrlas, también en su terminal:
+![gremlins](https://github.com/jhrubiano10/Taller_05_MISO_4208_random_testing/blob/master/02_Random_Testing_gremlins/gremlings.gif?raw=true)
 
-```bash
-$ npm test
-```
+### Autor
+* Jorge Rubaino [@ostjh]
+* Código: 201510711
+
+License
+----
+MIT
+
+[@ostjh]:https://twitter.com/ostjh
+[Modificar la especie que llena formularios]:https://github.com/jhrubiano10/Taller_05_MISO_4208_random_testing/blob/master/02_Random_Testing_gremlins/test/specs/gremlins-test.js#L26
+[Modificar la especie que realiza clicks para que solo haga clicks sobre botones o links]:https://github.com/jhrubiano10/Taller_05_MISO_4208_random_testing/blob/master/02_Random_Testing_gremlins/test/specs/gremlins-test.js#L34
+[Cambiar la distribucíon para darle prioridad al gremlin que realiza clicks]:https://github.com/jhrubiano10/Taller_05_MISO_4208_random_testing/blob/master/02_Random_Testing_gremlins/test/specs/gremlins-test.js#L40
